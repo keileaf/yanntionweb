@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yanntion</title>
+  <link rel="icon" href="./assets/logo_pagina.jpg" type="image/icon type">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./public/style.css">
+</head>
+
+<body>
+  <!-- Menu de SIDEBAR-->
+  <div class="sidebar">
+    <a class="active" href="./index.html">Inicio</a>
+    <a href="./us.html">Mas diseños.</a>
+    <a href="./updates.html">Próximamente</a>
+    <a href="https://wa.me/+526642181185"> Contactanos  <img src="./assets/WhatsApp_icon.png" width="25" height="25" alt=""></a>
+    <a href="./contacto.html">Ubibicaciones <img src="./assets/location_icon.png" width="25" height="25"></a>
+  </div>
+
+  <!-- Contiene TOTA LA PAGINA-->
+  <div class="content">
+   
+    <!-- Contenedor de las 3 imagenes principales-->
+    <div class="container">
+      <div class="container p-1 my-2 border">
+        <h2 class="text-center">Dejanos iluminar tu espacio.</h2>
+      </div>
+  
+      <div class="row">
+        <div class="col-md-4">
+          <div class="product-card">
+            <img src="./assets/280calidoblanco.jpeg" class="img-thumbnail" id="imagen1" data-toggle="modal" data-target="#modalImagen1" ></h2>
+            <h2>Cálido con blanco.</h2>
+            <p>Precio: $280 mx</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="product-card">
+            <img src="./assets/280calido.jpeg" class="img-thumbnail" id="imagen2" data-toggle="modal" data-target="#modalImagen2" ></h2>
+            <h2>Cálido.</h2>
+            <p>Precio: $280 mx</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="product-card">
+            <img src="./assets/280frio.jpeg" class="img-thumbnail" id="imagen3" data-toggle="modal" data-target="#modalImagen3" ></h2>
+            <h2>Blanco.</h2>
+            <p>Precio: $280 mx</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="product-card">
+            <img src="./assets/180verdeyrosa.jpeg" class="img-thumbnail" id="imagen4" data-toggle="modal" data-target="#modalImagen4" ></h2>
+            <h2>Verde y morado.</h2>
+            <p>Precio: $280 mx c/u</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="product-card">
+            <img src="./assets/280calidoyfrio.jpeg" class="img-thumbnail" id="imagen5" data-toggle="modal" data-target="#modalImagen5" ></h2>
+            <h2>Cálido y blanco.</h2>
+            <p>Precio: $280 mx c/u</p>
+          </div>
+        </div><!--se pueden agregar mas elementos-->
+      </div>
+      <!-- Aqui inicia el carrucel de imagenes-->
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+      
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/flornochezoom.jpg" alt="Imagen 1">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/multi.jpeg" alt="Imagen 2">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/ads.PNG" alt="Imagen 3">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Siguiente</span>
+        </a>
+      </div>
+      <div class="container p-1 my-2 border">
+        <h2 class="text-center">Dejanos iluminar tu espacio.</h2>
+      </div>
+      <footer class="bg-dark text-light">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-md-4">
+              <h5>Somos creadores locales.</h5>
+              <p>Tenemos el objetivo de ofrecerte un producto de calidad que te permita llevar esa ilumancion armoniosa a tu hogar.</p>
+            </div>
+            <div class="col-md-4">
+              <h5>Contactanos.</h5>
+              <ul class="list-unstyled">
+                <li><i class="fas fa-map-marker-alt"></i>Playas de Rosarito, Mexico</li>
+                <li><i class="fas fa-envelope"></i> leafventura@gmail.com</li>
+                <li>  
+                  <a href="https://wa.me/+526642181185">   
+                    <img src="./assets/WhatsApp_icon.png" width="25" height="25" alt="">
+                  </a>
+                  <a class="fas fa-phone" href="https://wa.me/+526642181185">+526642181185</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h5>Siguenos en nuestras redes.</h5>
+              <ul class="list-inline">
+                <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.instagram.com/yanntionleaf/">     <img src="./assets/instagram_logo.png" width="25" height="25" alt=""> Siguenos<i class="fab fa-instagram"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+          <p class="text-center">© 2023 Yanntion.</p>
+        </div>
+      </footer>      
+    </div>
+    <!--Sigo agregando cosas :p -->
+
+  </div> 
+  
+
+<!--Logica para incremento de tamano de las fotos 1 x 1 :/  -->
+
+<div class="modal fade" id="modalImagen1" tabindex="-1" role="dialog" aria-labelledby="modalImagenLabel1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="./assets/280calidoblanco.jpeg" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modalImagen2" tabindex="-1" role="dialog" aria-labelledby="modalImagenLabel2" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="./assets/280calido.jpeg" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modalImagen3" tabindex="-1" role="dialog" aria-labelledby="modalImagenLabel3" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="./assets/280frio.jpeg" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modalImagen4" tabindex="-1" role="dialog" aria-labelledby="modalImagenLabel4" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="./assets/180verdeyrosa.jpeg" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modalImagen5" tabindex="-1" role="dialog" aria-labelledby="modalImagenLabel5" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="./assets/280calidoyfrio.jpeg" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
